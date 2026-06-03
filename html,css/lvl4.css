@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row ; /*aligns elements into rows from main axis in the direction left to right 
+    flex-direction: row-reverse; direction of main axis is from right to left */
+    /* flex-direction: column-reverse - bottom to top and only column arranges if from top-bottom */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items:flex-start;
+    /* align-content: flex-start; */
+}
+
+#b1{
+    background-color: chocolate;
+    flex-grow: 1;
+}
+
+#b2{
+    background-color:yellowgreen;
+    height: 200px;
+    /* align-self: flex-end; */
+    flex-grow: 2;
+}
+
+#b3{
+    background-color: orchid;
+    height: 125px;
+}
+
+#b4{
+    background-color: rebeccapurple;
+}
+
+#b5{
+    background-color: firebrick;
+}
