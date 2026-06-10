@@ -22,7 +22,7 @@ li{
     height: 400px;
     width: 400px;
     background-color: cornflowerblue;
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center; /* to center items in the center on the cross axis */
 }
